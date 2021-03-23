@@ -1,0 +1,21 @@
+{
+  "name": "vite-lib",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build"
+  },
+  "main": "dist/vite-lib.umd.js",
+  "module": "dist/vite-lib.es.js",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "vite": "^2.1.0"
+  },
+  "peerDependencies": {
+    "google-libphonenumber": "^3.2.18"
+  },
+  "peerDependenciesMeta": {
+    "google-libphonenumber": {
+      "optional": true
+    }
+  }
+}
